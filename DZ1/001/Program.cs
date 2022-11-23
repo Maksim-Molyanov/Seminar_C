@@ -10,9 +10,13 @@ int b = int.Parse(Console.ReadLine());
 
 if (a > b)
 {
-    Console.WriteLine($"max = {a}");
+    Console.WriteLine("a > b");
+}
+else if (a < b)
+{
+    Console.WriteLine("b > a");
 }
 else
 {
-    Console.WriteLine($"max = {b}");
+    Console.WriteLine("числа равны");
 }
